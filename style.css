@@ -1,0 +1,55 @@
+body{
+    background-color: #f9fafc;
+    margin: 0px;
+}
+
+section{
+    margin: 35px 60px 10px 60px;
+}
+
+strong{
+    color: #0a3b5c;
+    font-weight: 700;
+    padding: 0.2em;
+    padding-left: 0px;
+    font-size: 22px;
+}
+
+p{
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px;
+}
+
+table{
+    border: 2px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: 0px;
+}
+
+#header p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#header img{
+    width: 10%;
+}
+
+#header .christ{
+    height: 100%;
+    width: 20%;
+}
+
+li{
+    line-height: 22px;
+    font-size: 16px;
+}
+
+#2d5578
