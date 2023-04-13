@@ -3,7 +3,7 @@ body{
 }
 
 section{
-    margin: 35px 60px 10px 60px;
+    margin: 30px 50px;
 }
 
 strong{
@@ -15,9 +15,9 @@ strong{
 }
 
 p{
-    font-size: 24px;
+    font-size: 26px;
     color: #000000;
-    line-height: 22px;
+    align-items: justify;
 }
 
 table, td, tr{
@@ -27,8 +27,7 @@ table, td, tr{
     border-collapse: collapse;
     width: 70%;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 20px auto;
 }
 
 tr:nth-child(even) {
@@ -40,31 +39,125 @@ li{
     font-size: 24px;
 }
 
+div{
+    margin-top: 30px;
+}
+
+.sec-name{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 30px;
+    font-family: "Alegreya", serif;
+    font-weight: bold;
+    color: #09a3d5;
+    line-height: 32px;
+}
+
 #header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 120px;
-    margin: 5px 0px 0px 0px;
+    margin: 0px;
+    background-color: darkgray;
+    padding-bottom: 55px;
+
 }
 
 #header p{
     text-align: center;
     font-size: 24px;
-    font-family: monospace;
+    font-family: "Alegreya", serif;
     line-height: 32px;
 }
 
 #header img{
     width: 10%;
+    margin: 2%;
+    margin-top: 4%;
+}
+
+#header .christ{
+    width: 20%;
+    margin: 1%;
+    margin-top: 2%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: -34px auto 10px auto;
+}
+
+#navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 10, 136);
+    color: whitesmoke;
+    width: 100%;
+    height: 45px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#navbar a li{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#home .seminar-des{
+    display: flex;
     margin: 5px;
 }
 
+.seminar-des .des{
+    width: 50%;
+    text-align: center;
+    font-weight: 700;
+    height: 95vh;
+    line-height: 32px;
+}
 
-#header .christ{
-    height: 100%;
-    width: 20%;
-    margin: 5px;
+.seminar-des .des h3{
+    letter-spacing: 0.30px;
+    font-size: 22px;
+    font-style: italic;
+    font-family: "PT Serif", serif;
+    color: #337ab7;
+    margin: 10px;
+}
+
+.seminar-des .des h2{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 30px;
+    font-family: "Alegreya", serif;
+    font-weight: bold;
+    color: #09a3d5;
+    line-height: 32px;
+}
+
+.seminar-des .des p{
+    font-family: "Alegreya", serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.seminar-des .photo{
+    width: 50%;
 }
 
 #registration a{
