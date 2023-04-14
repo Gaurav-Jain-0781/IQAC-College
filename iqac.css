@@ -3,7 +3,10 @@ body{
 }
 
 section{
-    margin: 30px 50px;
+    margin-right: 100px;
+    margin-left: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 strong{
@@ -61,7 +64,7 @@ div{
     margin: 0px;
     background-color: darkgray;
     padding-bottom: 55px;
-
+    background-image: -webkit-linear-gradient(90deg, #e1e0e4 0%, white 100%);
 }
 
 #header p{
@@ -81,21 +84,25 @@ div{
     width: 20%;
     margin: 1%;
     margin-top: 2%;
+    background-color: #e1e0e4;
 }
 
 #navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 95%;
     margin: -34px auto 10px auto;
+    position: sticky;
+    top: -1%;
+    z-index: 999;
 }
 
 #navbar .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(10, 10, 136);
+    background-color: rgb(12, 12, 161);
     color: whitesmoke;
     width: 100%;
     height: 45px;
@@ -109,7 +116,7 @@ div{
 
 #navbar a li{
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 500;
     list-style-type: none;
     text-decoration: none;
@@ -172,4 +179,18 @@ div{
     height: 30px;
     margin: 5px;
     font-size: 28px;
+}
+
+#commities b{
+    font-size: 16px ;
+    color: #898989;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 5px 5px 0px;
+    line-height: 28px;
+}
+
+#commities .title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #09a3d5;
 }
