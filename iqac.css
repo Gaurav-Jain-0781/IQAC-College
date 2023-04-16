@@ -185,6 +185,20 @@ li{
     margin: 10px;
 }
 
+#key-note-speakers{
+    position: relative;
+}
+
+#key-note-speakers strong::after{
+    content: "";
+    position: absolute;
+    top: 23%;
+    left: 27%;
+    width: 55px;
+    background-color: rgb(87, 87, 238, 0.78);;
+    height: 4%;
+}
+
 #registration a{
     text-decoration: none;
     background-color: blue;
@@ -195,11 +209,21 @@ li{
     display: flex;
     width: 40%;
     height: 30px;
-    font-size: 16px;
+    font-size: 22px;
+    padding-top: 5px;
 }
 
 #registration .table-1{
     margin: 15px;
+}
+
+#registration .table-1 thead p{
+    margin: 2px 0px;
+}
+
+#registration .table-1 tbody p{
+    margin: 2px 0px;
+    font-size: 16px;
 }
 
 #registration .table-2{
@@ -214,7 +238,7 @@ li{
 }
 
 #commities b{
-    font-size: 20px ;
+    font-size: 18px ;
     color: #898989;
     font-family: "Open Sans", sans-serif;
     padding: 15px 15px 15px 0px;
