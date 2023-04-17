@@ -146,6 +146,47 @@ li{
     color: rgb(22, 21, 26);
 }
 
+#banner{
+    background-image: url("banner2.png");
+    margin: 0px;
+    padding: 0px;
+    height: 112vh;
+    width: 100%;
+    position: relative;
+    top: -40px;
+}
+
+#banner button{
+    position: absolute;
+    top: 52%;
+    right: 7%;
+    height: 50px;
+    width: 12%;
+    background-color: rgb(87, 87, 238, 0.78);
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#banner button a{
+    text-decoration: none;
+    color: white;
+    outline: 0px solid black;
+    font-size: 25px;
+    font-family: Cinzel;
+    font-weight: 400;
+}
+
+#banner button:hover{
+    width: 13%;
+}
+
+#banner button a:hover{
+    font-size: 28px;
+}
+
+/*
 #banner .seminar-des{
     display: flex;
     margin: 50px 5px;
@@ -184,6 +225,7 @@ li{
     font-size: 24px;
     margin: 10px;
 }
+*/
 
 #key-note-speakers{
     position: relative;
