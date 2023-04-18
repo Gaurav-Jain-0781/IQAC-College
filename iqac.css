@@ -68,7 +68,7 @@ li{
     height: 120px;
     margin: 0px;
     padding-bottom: 55px;
-    background-color:  #77889985;
+    background-color:  #dbe2e985;
 }
 
 #header p{
@@ -108,7 +108,7 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(87, 87, 238, 0.78);
+    background-color: #5d666e;
     color: whitesmoke;
     width: 100%;
     height: 30px;
@@ -116,6 +116,7 @@ li{
     padding: 10px;
     border-radius: 10px;
     position: relative;
+    box-shadow: -3px 2px 5px darkslategray;
 }
 
 #navbar li{
@@ -147,18 +148,19 @@ li{
 }
 
 #banner{
-    background-image: url("banner2.png");
     margin: 0px;
+    background-image: url(banner.png);
     padding: 0px;
-    height: 112vh;
-    width: 100%;
+    height: 63.5vh;
+    background-size: 100%;
     position: relative;
-    top: -40px;
+    top: 16px;
+    background-repeat-x: no-repeat;
 }
 
 #banner button{
     position: absolute;
-    top: 52%;
+    top: 75%;
     right: 7%;
     height: 50px;
     width: 12%;
@@ -186,47 +188,6 @@ li{
     font-size: 28px;
 }
 
-/*
-#banner .seminar-des{
-    display: flex;
-    margin: 50px 5px;
-}
-
-.seminar-des .des{
-    width: 50%;
-    text-align: center;
-    font-weight: 700;
-    height: 95vh;
-    line-height: 32px;
-}
-
-.seminar-des .des h3{
-    letter-spacing: 0.30px;
-    font-size: 22px;
-    font-style: italic;
-    font-family: "PT Serif", serif;
-    color: #337ab7;
-    margin: 10px;
-}
-
-.seminar-des .des h2{
-    margin-bottom: 25px;
-    margin-top: 0;
-    font-size: 30px;
-    font-family: "Alegreya", serif;
-    font-weight: bold;
-    color: #09a3d5;
-    line-height: 32px;
-}
-
-.seminar-des .des p{
-    font-family: "Alegreya", serif;
-    font-weight: 500;
-    font-size: 24px;
-    margin: 10px;
-}
-*/
-
 #key-note-speakers{
     position: relative;
 }
@@ -251,8 +212,8 @@ li{
     display: flex;
     width: 40%;
     height: 30px;
-    font-size: 22px;
-    padding-top: 5px;
+    font-size: 18px;
+    padding: 3px;
 }
 
 #registration .table-1{
@@ -277,12 +238,13 @@ li{
     font-weight: 200;
     letter-spacing: 2px;
     font-size: 16px;
+    font-family: Cambria;
 }
 
 #commities b{
     font-size: 18px ;
     color: #898989;
-    font-family: "Open Sans", sans-serif;
+    font-family: Cambria;
     padding: 15px 15px 15px 0px;
     line-height: 28px;
     font-weight: normal;
