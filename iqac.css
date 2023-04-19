@@ -104,7 +104,7 @@ li{
     z-index: 999;
 }
 
-#navbar .nav{
+#nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -147,7 +147,7 @@ li{
     color: rgb(22, 21, 26);
 }
 
-#navbar .mobile{
+#mobile{
     display: none;
 }
 
@@ -326,31 +326,74 @@ li{
         padding-top: 24px;
     }
     #navbar{
+        display: flex;
+        flex-direction: column;
         padding: 0px;
-        top: -0.5%;
+        top: 2px;
+        position: relative;
+        width: 27%;
+        right: -140px;
     }
-    #navbar .mobile{
+    #navbar li{
+        border-bottom: 2px solid lightblue;
+        border-right: 0px solid lightblue;
+        padding-bottom: 25px;
+        font-size: 40px;
+        padding-right: 0px;
+    }
+    #navbar li:nth-child(7){
+        border-bottom: none;
+    }
+    #nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #5d666e;
+        color: whitesmoke;
+        height: 500px;
+        width: 62%;
+        margin: 5px;
+        padding-top: 60px;
+        border-radius: 10px;
+        position: fixed;
+        right: -315px;
+        top: 145px;
+        box-shadow: -3px 2px 5px darkslategray;
+        z-index: 999;
+        transition: 0.5s ease;
+    }
+    #nav.active{
+        right: -15px;
+    }
+    #mobile{
         display: flex;
         justify-content: space-around;
         align-items: center;
         background-color: #5d666e;
         color: whitesmoke;
-        width: 100%;
+        width: 28%;
         height: 30px;
         margin: 5px;
         padding: 10px;
         border-radius: 10px;
-        position: relative;
+        position: fixed;
         font-size: 26px;
         box-shadow: -3px 2px 5px darkslategray;
     }
-    #navbar .mobile a{
+    #mobile a{
         text-decoration: none;
         color: whitesmoke;
         font-size: 22px;
     }
-    #navbar .nav{
-        display: none;
+    #close{
+        font-size: 35px;
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        display: initial;
+        text-decoration: none;
+        color: whitesmoke;
     }
     #banner{
         height: 15vh;

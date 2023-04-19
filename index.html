@@ -17,7 +17,7 @@
     </section>
     
     <section id="navbar">
-        <ul class="nav">
+        <ul id="nav">
             <li><a href="#">Home</a></li>
             <li><a href="#about-us">About Us</a></li>
             <li><a href="#progarm">Program</a></li>
@@ -27,7 +27,7 @@
             <li><a href="#contact-us">Contact Us</a></li>
             <a href="#" id="close"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
         </ul>
-        <div class="mobile">
+        <div id="mobile">
             <a href="#"><i class="fa-solid fa-house"></i></a>
             <i id="bar" class="fa-solid fa-bars"></i>
         </div>
@@ -375,5 +375,24 @@
             </div>
         </div>
     </section>
+
+    <script>
+        const bar = document.getElementById('bar');
+        const nav = document.getElementById('nav');
+        const close = document.getElementById('close');
+
+        if (bar) {
+            bar.addEventListener('click', ()=>
+                {nav.classList.add('active');
+            })
+        }
+
+        if (close) {
+            close.addEventListener('click', () =>
+                {nav.classList.remove('active');
+            })
+        }
+    </script>
+
 </body>
 </html>
