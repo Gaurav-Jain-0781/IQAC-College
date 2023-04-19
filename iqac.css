@@ -499,8 +499,8 @@ li{
         font-size: 12px;
     }
     #nav.active{
-        height: 50%;
-        width: 45%;
+        height: 60%;
+        width: 50%;
         right: -2%;
         top: 33%;
     }
@@ -511,7 +511,7 @@ li{
         font-size: 55%;
     }
     #mobile{
-        top: 26%;
+        top: 33%;
     }
     #commities span {
     font-size: 15px;
