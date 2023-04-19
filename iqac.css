@@ -8,7 +8,7 @@ a{
 
 section{
     margin: 15px 100px 15px 70px;
-    padding: 25px 15px;
+    padding: 42px 15px;
 }
 
 strong{
@@ -64,7 +64,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 115px;
+    height: 130px;
     margin: 0px;
     padding: 10px 25px 34px 25px;
     background-color: #dbe2e985
@@ -96,7 +96,7 @@ li{
     width: 95%;
     margin: -65px auto 10px auto;
     position: sticky;
-    top: -3%;
+    top: -7%;
     z-index: 999;
     padding-top: 35px;
 }
@@ -150,7 +150,7 @@ li{
 
 #banner{
     margin: 0px;
-    background-image: url(banner.png);
+    background-image: url(banner.jpeg);
     padding: 0px;
     height: 63.5vh;
     background-size: 100%;
@@ -196,11 +196,11 @@ li{
 #key-note-speakers strong::after{
     content: "";
     position: absolute;
-    top: 43%;
-    left: 27%;
+    top: 31%;
+    left: 30%;
     width: 55px;
-    background-color: rgb(87, 87, 238, 0.78);;
-    height: 4%;
+    background-color: rgb(87, 87, 238, 0.78);
+    height: 3%;
 }
 
 #registration a{
@@ -309,15 +309,18 @@ li{
 }
 
 /*Media Query*/
-@media (max-width:414px){
-    section{
-        margin: 15px 10px;
-        padding: 15px 10px;
-    }
+
+@media (max-width:850px) {
     #header p{
         font-size: 14px;
         line-height: 24px;
         padding-top: 24px;
+    }
+    #header .christ{
+        width: 25%;
+    }
+    #header img{
+        width: 25%;
     }
     #navbar{
         display: flex;
@@ -352,20 +355,20 @@ li{
         align-items: center;
         background-color: #5d666e;
         color: whitesmoke;
-        height: 450px;
-        width: 62%;
+        height: 35%;
+        width: 34%;
         margin: 5px;
         padding-top: 10px;
         border-radius: 10px;
         position: fixed;
-        right: -315px;
-        top: 153px;
+        right: -500px;
+        top: 29.8%;
         box-shadow: -3px 2px 5px darkslategray;
         z-index: 999;
         transition: 0.5s ease;
     }
     #nav.active{
-        right: -15px;
+        right: 80px;
     }
     #mobile{
         display: flex;
@@ -374,15 +377,15 @@ li{
         align-items: center;
         background-color: rgb(22, 21, 26);
         color: whitesmoke;
-        width: 7%;
-        height: 80px;
+        width: 6%;
+        height: 95px;
         margin: 5px;
         padding: 10px;
         border-radius: 10px;
         position: fixed;
         font-size: 26px;
-        right: -6px;
-        top: 100px;
+        right: -1%;
+        top: 43%;
         box-shadow: -3px 2px 5px darkslategray;
     }
     #mobile a{
@@ -391,33 +394,23 @@ li{
         font-size: 22px;
     }
     #banner{
-        height: 15vh;
+        height: 40vh;
         background-repeat: no-repeat;
         top: 55px;
+        background-image: url('banner2.jpeg');
     }
     #banner button{
-        top: 65%;
-        right: 7%;
-        height: 25px;
-        width: 25%;
+        top: 71%;
+        right: 15%;
+        height: 10%;
+        width: 18%;
     }
     #banner button a{
-        font-size: 15px;
-    }
-    #home {
-        padding-top: 50px;
+        font-size: 20px;
     }
     #key-note-speakers strong::after{
-        left: 80%;
-        top: 24%;
-    }
-    #registration .table-1 table{
-        width: 100%;
-        height: auto;
-        margin: none;
-    }
-    #registration a{
-        width: 100%;
+        left: 50%;
+        top: 30%;
     }
     #contact-us{
         padding-right: 0px;
@@ -432,5 +425,44 @@ li{
     }
     #contact-us .people{
         width: 100%;
+    }
+    #registration .table-1 table{
+        width: 100%;
+        height: auto;
+        margin: none;
+    }
+    #registration a{
+        width: 100%;
+    }
+}
+
+@media (max-width:450px){
+    section{
+        margin: 15px 10px;
+        padding: 15px 10px;
+    }
+    #banner{
+        background-image: url('phone.jpeg');
+    }
+    #banner button{
+        top: 60%;
+        width: 20%;
+    }
+    #banner button a{
+        font-size: 12px;
+    }
+    #nav.active{
+        height: 50%;
+        width: 52%;
+        right: -2%;
+    }
+    #navbar li{
+        font-size: 32px;
+    }
+    #mobile{
+        top: 47%;
+    }
+    #key-note-speakers strong::after {
+        left: 78%;
     }
 }
