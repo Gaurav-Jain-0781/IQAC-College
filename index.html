@@ -18,14 +18,13 @@
     
     <section id="navbar">
         <ul id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#progarm">Program</a></li>
-            <li><a href="#key-note-speakers">KeyNote Speakers</a></li>
-            <li><a href="#registration">Registration</a></li>
-            <li><a href="#commities">Committies</a></li>
-            <li><a href="#contact-us">Contact Us</a></li>
-            <a href="#" id="close"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+            <li id="nav1"><a href="#">Home</a></li>
+            <li id="nav2"><a href="#about-us">About Us</a></li>
+            <li id="nav3"><a href="#progarm">Program</a></li>
+            <li id="nav4"><a href="#key-note-speakers">KeyNote Speakers</a></li>
+            <li id="nav5"><a href="#registration">Registration</a></li>
+            <li id="nav6"><a href="#commities">Committies</a></li>
+            <li id="nav7"><a href="#contact-us">Contact Us</a></li>
         </ul>
         <div id="mobile">
             <a href="#"><i class="fa-solid fa-house"></i></a>
@@ -378,8 +377,13 @@
 
     <script>
         const bar = document.getElementById('bar');
-        const nav = document.getElementById('nav');
-        const close = document.getElementById('close');
+        const nav_item_1 = document.getElementById('nav1');
+        const nav_item_2 = document.getElementById('nav2');
+        const nav_item_3 = document.getElementById('nav3');
+        const nav_item_4 = document.getElementById('nav4');
+        const nav_item_5 = document.getElementById('nav5');
+        const nav_item_6 = document.getElementById('nav6');
+        const nav_item_7 = document.getElementById('nav7');
 
         if (bar) {
             bar.addEventListener('click', ()=>
@@ -387,8 +391,38 @@
             })
         }
 
-        if (close) {
-            close.addEventListener('click', () =>
+        if (nav_item_1) {
+            nav_item_1.addEventListener('click', () =>
+                {nav.classList.remove('active');
+            })
+        }
+        if (nav_item_2) {
+            nav_item_2.addEventListener('click', () =>
+                {nav.classList.remove('active');
+            })
+        }
+        if (nav_item_3) {
+            nav_item_3.addEventListener('click', () =>
+                {nav.classList.remove('active');
+            })
+        }
+        if (nav_item_4) {
+            nav_item_4.addEventListener('click', () =>
+                {nav.classList.remove('active');
+            })
+        }
+        if (nav_item_5) {
+            nav_item_5.addEventListener('click', () =>
+                {nav.classList.remove('active');
+            })
+        }
+        if (nav_item_6) {
+            nav_item_6.addEventListener('click', () =>
+                {nav.classList.remove('active');
+            })
+        }
+        if (nav_item_7) {
+            nav_item_7.addEventListener('click', () =>
                 {nav.classList.remove('active');
             })
         }
