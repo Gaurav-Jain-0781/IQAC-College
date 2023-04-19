@@ -50,43 +50,37 @@ li{
     font-size: 20px;
 }
 
-.sec-name{
-    margin-bottom: 25px;
-    margin-top: 0;
-    font-size: 30px;
-    font-family: "Alegreya", serif;
-    font-weight: bold;
-    color: #09a3d5;
-    line-height: 32px;
-}
-
 #header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 130px;
-    margin: 0px;
-    padding: 10px 25px 34px 25px;
-    background-color: #dbe2e985
+    height: 140px;
+    margin: 0px 43px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
 }
 
 #header p{
     text-align: center;
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 800;
-    font-family: Cinzel;
-    line-height: 36px;
+    font-family: Limelight;
+    line-height: 38px;
 }
 
 #header img{
-    width: 10%;
+    width: 12%;
     margin: 1%;
+    right: 83%;
+    margin-top: 1%;
 }
 
 #header .christ{
-    width: 20%;
-    margin: 1%;
+    width: 23%;
+    margin-top: 1%;
     background-color: #e1e0e4;
+    top: -10%;
+    right: 1%;
 }
 
 #navbar{
@@ -96,9 +90,9 @@ li{
     width: 95%;
     margin: -65px auto 10px auto;
     position: sticky;
-    top: -7%;
+    top: -11%;
     z-index: 999;
-    padding-top: 35px;
+    padding-top: 60px;
 }
 
 #nav{
@@ -119,7 +113,7 @@ li{
 #navbar li{
     list-style-type: none;
     border-right: 2px solid lightblue;
-    margin: 5px;
+    margin: 4px;
     padding-right: 20px;
     font-family: Ubuntu;
     transition: 0.7s ease;
@@ -132,7 +126,7 @@ li{
 
 #navbar li a{
     color: whitesmoke;
-    font-size: 95%;
+    font-size: 20px;
     font-weight: 500;    
     text-decoration: none;
     margin-left: 15px;
@@ -140,7 +134,7 @@ li{
 }
 
 #navbar li a:hover{
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(22, 21, 26);
 }
 
@@ -155,7 +149,7 @@ li{
     height: 63.5vh;
     background-size: 100%;
     position: relative;
-    top: -20px;
+    top: -50px;
     background-repeat: no-repeat;
 }
 
@@ -193,16 +187,6 @@ li{
     position: relative;
 }
 
-#key-note-speakers strong::after{
-    content: "";
-    position: absolute;
-    top: 31%;
-    left: 30%;
-    width: 55px;
-    background-color: rgb(87, 87, 238, 0.78);
-    height: 3%;
-}
-
 #registration a{
     text-decoration: none;
     background-color: blue;
@@ -213,7 +197,7 @@ li{
     display: flex;
     width: 40%;
     height: 30px;
-    font-size: 24px;
+    font-size: 16px;
     padding-top: 5px;
 }
 
@@ -238,12 +222,12 @@ li{
     color: #000000;
     font-weight: 200;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Cambria;
 }
 
 #commities b{
-    font-size: 18px ;
+    font-size: 20px ;
     color: #898989;
     font-family: Cambria;
     padding: 15px 15px 15px 0px;
@@ -265,17 +249,18 @@ li{
     align-items: flex-start;
     justify-content: center;
     font-size: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 12px;
 }
 
 #contact-us strong{
     color: rgb(20, 57, 168);
-    font-weight: 900;
+    font-weight: 500;
     padding: 0.2em;
     padding-left: 0px;
     font-size: 34px;
     margin: 15px;
-    font-family: "Alegreya";
+    font-family: "Koulen";
 }
 
 #contact-us  .contact{
@@ -310,17 +295,45 @@ li{
 
 /*Media Query*/
 
-@media (max-width:850px) {
+@media (max-width:1000px) {
+    section{
+        margin: 15px 10px;
+        padding: 15px 10px;
+    }
+    p{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    strong{
+        font-size: 35px;
+    }
+    #header{
+        margin: 0px 30px;
+        height: 350px;
+    }
     #header p{
-        font-size: 14px;
-        line-height: 24px;
+        margin-top: 175px;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 600;
+        /* margin-right: 0%; */
+        color: #314444;
         padding-top: 24px;
     }
-    #header .christ{
-        width: 25%;
-    }
     #header img{
-        width: 25%;
+        width: 18%;
+        margin: 1%;
+        right: 70%;
+        position: absolute;
+        top: 2%;
+    }
+    
+    #header .christ{
+        width: 44%;
+        position: absolute;
+        background-color: #e1e0e4;
+        top: 1%;
+        right: 10%;
     }
     #navbar{
         display: flex;
@@ -351,7 +364,7 @@ li{
     #nav{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         background-color: #5d666e;
         color: whitesmoke;
@@ -362,31 +375,34 @@ li{
         border-radius: 10px;
         position: fixed;
         right: -500px;
-        top: 29.8%;
+        top: 16%;
         box-shadow: -3px 2px 5px darkslategray;
         z-index: 999;
         transition: 0.5s ease;
     }
     #nav.active{
         right: 80px;
+        height: 40%;
     }
     #mobile{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(22, 21, 26);
+        background-color: #5d666e;
         color: whitesmoke;
-        width: 6%;
-        height: 95px;
+        width: 7%;
+        height: 100px;
         margin: 5px;
         padding: 10px;
         border-radius: 10px;
         position: fixed;
         font-size: 26px;
-        right: -1%;
-        top: 43%;
+        right: -5px;
+        top: 26%;
         box-shadow: -3px 2px 5px darkslategray;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
     #mobile a{
         text-decoration: none;
@@ -407,10 +423,6 @@ li{
     }
     #banner button a{
         font-size: 20px;
-    }
-    #key-note-speakers strong::after{
-        left: 50%;
-        top: 30%;
     }
     #contact-us{
         padding-right: 0px;
@@ -433,6 +445,7 @@ li{
     }
     #registration a{
         width: 100%;
+        font-size: 12px;
     }
 }
 
@@ -440,6 +453,40 @@ li{
     section{
         margin: 15px 10px;
         padding: 15px 10px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    strong{
+        font-size: 25px;
+    }
+    #header{
+        height: 280px;
+        margin: 0px 20px;
+    }
+    #header p{
+        margin-top: 95px;
+        font-size: 21px;
+        line-height: 30px;
+        font-weight: 600;
+        /* margin-right: 0%; */
+        color: #314444;
+        padding-top: 24px;
+    }
+    #header img{
+        width: 21%;
+        margin: 1%;
+        right: 70%;
+        position: absolute;
+        top: 2%
+    }
+    #header .christ{
+        width: 53%;
+        position: absolute;
+        background-color: #e1e0e4;
+        top: 1%;
+        right: 5%;
     }
     #banner{
         background-image: url('phone.jpeg');
@@ -453,16 +500,23 @@ li{
     }
     #nav.active{
         height: 50%;
-        width: 52%;
+        width: 45%;
         right: -2%;
+        top: 33%;
     }
     #navbar li{
         font-size: 32px;
     }
-    #mobile{
-        top: 47%;
+    #navbar li a{
+        font-size: 55%;
     }
-    #key-note-speakers strong::after {
-        left: 78%;
+    #mobile{
+        top: 26%;
+    }
+    #commities span {
+    font-size: 15px;
+    }
+    #commities .title {
+        font-size: 22px;
     }
 }
