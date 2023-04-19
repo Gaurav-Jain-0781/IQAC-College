@@ -147,6 +147,14 @@ li{
     color: rgb(22, 21, 26);
 }
 
+#navbar .mobile{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
 #banner{
     margin: 0px;
     background-image: url(banner.png);
@@ -305,4 +313,71 @@ li{
     justify-content: flex-start;
     margin-top: 12px;
     height: 120px;
+}
+
+/*Media Query*/
+@media (max-width:414px){
+    section{
+        margin: 16px 10px;
+    }
+    #header p{
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 24px;
+    }
+    #navbar{
+        padding: 0px;
+        top: -0.5%;
+    }
+    #navbar .mobile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #5d666e;
+        color: whitesmoke;
+        width: 100%;
+        height: 30px;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        font-size: 26px;
+        box-shadow: -3px 2px 5px darkslategray;
+    }
+    #navbar .mobile a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 22px;
+    }
+    #navbar .nav{
+        display: none;
+    }
+    #banner{
+        height: 15vh;
+        background-repeat: no-repeat;
+    }
+    #banner button{
+        top: 65%;
+        right: 7%;
+        height: 25px;
+        width: 25%;
+    }
+    #banner button a{
+        font-size: 15px;
+    }
+    #key-note-speakers strong::after{
+        left: 80%;
+    }
+    #contact-us{
+        padding-right: 0px;
+    }
+    #contact-us .contact{
+        flex-direction: column;
+    }
+    #contact-us .location{
+        width: 100%;
+    }
+    #contact-us .people{
+        width: 100%;
+    }
 }
