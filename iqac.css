@@ -7,10 +7,8 @@ a{
 }
 
 section{
-    margin: 40px 100px 0px 70px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 35px;
+    margin: 15px 100px 15px 70px;
+    padding: 25px 15px;
 }
 
 strong{
@@ -66,31 +64,28 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 115px;
     margin: 0px;
-    padding-bottom: 55px;
-    background-color:  #dbe2e985;
+    padding: 10px 25px 34px 25px;
+    background-color: #dbe2e985
 }
 
 #header p{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
     font-family: Cinzel;
     line-height: 36px;
-    padding-top: 30px;
 }
 
 #header img{
     width: 10%;
-    margin: 2%;
-    margin-top: 4%;
+    margin: 1%;
 }
 
 #header .christ{
     width: 20%;
     margin: 1%;
-    margin-top: 2%;
     background-color: #e1e0e4;
 }
 
@@ -99,10 +94,11 @@ li{
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    margin: -32px auto 10px auto;
+    margin: -65px auto 10px auto;
     position: sticky;
-    top: -1%;
+    top: -3%;
     z-index: 999;
+    padding-top: 35px;
 }
 
 #nav{
@@ -136,7 +132,7 @@ li{
 
 #navbar li a{
     color: whitesmoke;
-    font-size: 22px;
+    font-size: 95%;
     font-weight: 500;    
     text-decoration: none;
     margin-left: 15px;
@@ -159,8 +155,8 @@ li{
     height: 63.5vh;
     background-size: 100%;
     position: relative;
-    top: 16px;
-    background-repeat-x: no-repeat;
+    top: -20px;
+    background-repeat: no-repeat;
 }
 
 #banner button{
@@ -200,7 +196,7 @@ li{
 #key-note-speakers strong::after{
     content: "";
     position: absolute;
-    top: 23%;
+    top: 43%;
     left: 27%;
     width: 55px;
     background-color: rgb(87, 87, 238, 0.78);;
@@ -217,8 +213,8 @@ li{
     display: flex;
     width: 40%;
     height: 30px;
-    font-size: 18px;
-    padding: 3px;
+    font-size: 24px;
+    padding-top: 5px;
 }
 
 #registration .table-1{
@@ -315,7 +311,8 @@ li{
 /*Media Query*/
 @media (max-width:414px){
     section{
-        margin: 16px 10px;
+        margin: 15px 10px;
+        padding: 15px 10px;
     }
     #header p{
         font-size: 14px;
@@ -338,11 +335,15 @@ li{
         font-size: 40px;
         padding-right: 0px;
     }
+    #navbar li a{
+        font-size: 65%;
+    }
     #navbar li:nth-child(1){
         display: none;
     }
     #navbar li:last-child{
         border-bottom: none;
+        padding-bottom: 5px;
     }
     #nav{
         display: flex;
@@ -358,7 +359,7 @@ li{
         border-radius: 10px;
         position: fixed;
         right: -315px;
-        top: 170px;
+        top: 153px;
         box-shadow: -3px 2px 5px darkslategray;
         z-index: 999;
         transition: 0.5s ease;
@@ -381,7 +382,7 @@ li{
         position: fixed;
         font-size: 26px;
         right: -6px;
-        top: 112px;
+        top: 100px;
         box-shadow: -3px 2px 5px darkslategray;
     }
     #mobile a{
@@ -392,6 +393,7 @@ li{
     #banner{
         height: 15vh;
         background-repeat: no-repeat;
+        top: 55px;
     }
     #banner button{
         top: 65%;
@@ -402,12 +404,25 @@ li{
     #banner button a{
         font-size: 15px;
     }
+    #home {
+        padding-top: 50px;
+    }
     #key-note-speakers strong::after{
         left: 80%;
-        top: 40%;
+        top: 24%;
+    }
+    #registration .table-1 table{
+        width: 100%;
+        height: auto;
+        margin: none;
+    }
+    #registration a{
+        width: 100%;
     }
     #contact-us{
         padding-right: 0px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
     }
     #contact-us .contact{
         flex-direction: column;
