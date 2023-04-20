@@ -321,7 +321,7 @@ li{
         padding-top: 24px;
     }
     #header img{
-        width: 18%;
+        width: 17%;
         margin: 1%;
         right: 70%;
         position: absolute;
@@ -333,7 +333,7 @@ li{
         position: absolute;
         background-color: #e1e0e4;
         top: 1%;
-        right: 10%;
+        right: 16%;
     }
     #navbar{
         display: flex;
@@ -375,14 +375,14 @@ li{
         border-radius: 10px;
         position: fixed;
         right: -500px;
-        top: 16%;
+        top: 5%;
         box-shadow: -3px 2px 5px darkslategray;
         z-index: 999;
         transition: 0.5s ease;
     }
     #nav.active{
-        right: 80px;
-        height: 40%;
+        right: -5px;
+        height: 38%;
     }
     #mobile{
         display: flex;
@@ -392,14 +392,14 @@ li{
         background-color: #5d666e;
         color: whitesmoke;
         width: 7%;
-        height: 100px;
+        height: 10%;
         margin: 5px;
         padding: 10px;
         border-radius: 10px;
         position: fixed;
-        font-size: 26px;
+        font-size: 28px;
         right: -5px;
-        top: 26%;
+        top: -0.5%;
         box-shadow: -3px 2px 5px darkslategray;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
@@ -475,7 +475,7 @@ li{
         padding-top: 24px;
     }
     #header img{
-        width: 21%;
+        width: 20%;
         margin: 1%;
         right: 70%;
         position: absolute;
@@ -486,7 +486,7 @@ li{
         position: absolute;
         background-color: #e1e0e4;
         top: 1%;
-        right: 5%;
+        right: 15%;
     }
     #banner{
         background-image: url('phone.jpeg');
@@ -499,10 +499,10 @@ li{
         font-size: 12px;
     }
     #nav.active{
-        height: 60%;
+        height: 55%;
         width: 50%;
         right: -2%;
-        top: 33%;
+        top: 5%;
     }
     #navbar li{
         font-size: 32px;
@@ -511,7 +511,7 @@ li{
         font-size: 55%;
     }
     #mobile{
-        top: 33%;
+        top: -5px;
     }
     #commities span {
     font-size: 15px;
