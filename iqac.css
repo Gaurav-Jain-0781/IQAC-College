@@ -221,7 +221,6 @@ li{
 #commities span{
     color: #000000;
     font-weight: 200;
-    letter-spacing: 2px;
     font-size: 18px;
     font-family: Cambria;
 }
@@ -410,19 +409,25 @@ li{
         font-size: 22px;
     }
     #banner{
-        height: 40vh;
+        height: 45vh;
         background-repeat: no-repeat;
         top: 55px;
-        background-image: url('banner2.jpeg');
+        background-image: url('banner2.png');
     }
     #banner button{
-        top: 71%;
+        top: 65%;
         right: 15%;
-        height: 10%;
-        width: 18%;
+        height: 12%;
+        width: 20%;
+    }
+    #banner button:hover{
+        width: 20%;
     }
     #banner button a{
-        font-size: 20px;
+        font-size: 24px;
+    }
+    #banner button a:hover{
+        font-size: 26px;
     }
     #contact-us{
         padding-right: 0px;
@@ -489,14 +494,19 @@ li{
         right: 15%;
     }
     #banner{
-        background-image: url('phone.jpeg');
+        background-image: url('phone.png');
+        height: 50vh;
     }
     #banner button{
-        top: 60%;
-        width: 20%;
+        top: 81%;
+        width: 30%;
+        right: 7%;
     }
     #banner button a{
-        font-size: 12px;
+        font-size: 18px;
+    }
+    #banner button a:hover{
+        font-size: 20px;
     }
     #nav.active{
         height: 55%;
